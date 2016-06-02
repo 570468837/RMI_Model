@@ -9,6 +9,7 @@ The first one talks about the basic use of RMI, the other one discusses about th
 in the same interface(IHello).
 
 You should pay attention to this:
+
 1. The class FileInformationSev should implement the interface FileInformation, which extends Serializable, instead of being 
 isolated, since all of its attributes(String and byte[]) must be serializable. Therefore, this is the easiest method. Otherwise, 
 it will throw out "java.io.InvalidClassException:XXX class invalid for deserialization."
