@@ -3,8 +3,11 @@ As is universally acknowledged, Java RMI is sometimes difficult and complex to d
 myself of this particular technology in the following days.
 
 This version is based on and the combination of the following two websites. Thanks for the authors' selfless share.
+
 http://lavasoft.blog.51cto.com/62575/91679/
+
 http://www.cnblogs.com/adolfmc/archive/2012/11/22/2782729.html
+
 The first one talks about the basic use of RMI, the other one discusses about the file transportation of RMI. I combined the two 
 in the same interface(IHello).
 
